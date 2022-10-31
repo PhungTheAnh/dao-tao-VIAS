@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Poppins';
+            padding: auto;
+            margin: 0;
+        }
+
+        img {
+            max-width: 100%;
+            object-fit: cover;
+        }
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border-radius: 16px;
+            border: 2px dashed #B99130;
+            padding: 22px 22px;
+            max-width: 350px;
+            box-shadow: 2px 4px 14px rgba(0, 0, 0, 0.25);
+        }
+
+        .avt-background {
+            background-color: #B99130;
+            border-radius: 100%;
+            padding: 10px 0 0 15px;
+        }
+
+        .item-title h2 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 20px;
+            color: #303039;
+        }
+
+        .item-content p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #75818F;
+        }
+
+        .btnMore {
+            padding: 7px 14px;
+            border: 1px solid #209956;
+            border-radius: 8px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #209956;
+            ;
+            outline: none;
+            background-color: white;
+        }
+
+        .btnMore:hover {
+            background-color: #209956;
+            color: white;
+            transition: 0.5s all;
+            cursor: pointer;
+        }
+        /*  */
+
+        .item-1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #F2F4F8;
+            ;
+            border-radius: 16px;
+            border: 2px dashed #B99130;
+            padding: 16px 17px;
+            max-width: 350px;
+
+        }
+
+        .item-1 .item-title h2 {
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 34px;
+            color: #303039;
+        }
+
+        .item-sub {
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            width: 100%;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .item-sub span {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+        }
+
+        .item-1 .item-content p {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            color: black;
+        }
+
+        .item-price {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .item-price span {
+            color: #F27127;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 21px;
+        }
+
+        .item-price .btnBuy {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: white;
+            background-color: #F27127;
+            border: none;
+            cursor: pointer;
+            border-radius: 13px;
+            padding: 4px 12px;
+        }
+        /*  */
+
+        .tab-list {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            gap: 10px;
+            border-bottom: 1px solid grey;
+            width: 650px;
+        }
+
+        .tab-list li {
+            list-style-type: none;
+            cursor: pointer;
+            padding: 15px;
+        }
+
+        .tab-list li a {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: black;
+        }
+
+        .tab-list li:hover>a {
+            color: #F27127;
+            transition: 0.5s all;
+        }
+
+        .tab-active {
+            border-bottom: 2px solid #F27127;
+        }
+
+        .tab-active a {
+            color: #F27127 !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="item">
+        <div class="avt-background">
+            <div class="avt-item">
+                <img src="./img/Ellipse 5.png" alt="">
+            </div>
+        </div>
+        <div class="item-title">
+            <h2>Khóa học</h2>
+        </div>
+        <div class="item-content">
+            <p>Nói đến bảo hiểm không thể không nhắc đến "Ông Lớn Pruden.tial" với câu slogan đi vào trái tim của Khách
+                hàng và mạng lưới Pruden.tial đã từng phủ dài trên khắp mảnh đất hình chữ S. Riêng với Pruden.tial...
+            </p>
+        </div>
+        <button class="btnMore">Tìm hiểu thêm</button>
+    </div>
+
+    <div class="item-1">
+        <div class="">
+            <div class="avt-item">
+                <img src="./img/image 55.png" alt="">
+            </div>
+        </div>
+        <div class="item-title">
+            <h2>Khóa học nguyên lý và pháp lý trong bảo hiểm</h2>
+        </div>
+        <div class="item-sub">
+            <span>9 Bài</span>
+            <span>2 Chương</span>
+            <span><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M7.50783 11.6001L10.7959 13.6918C11.3981 14.0751 12.1349 13.5085 11.9765 12.7918L11.1049 8.85846L14.0127 6.20846C14.5436 5.72513 14.2583 4.80846 13.5611 4.75013L9.73423 4.40846L8.23676 0.691797C7.96737 0.0167969 7.04829 0.0167969 6.7789 0.691797L5.28142 4.40013L1.45455 4.7418C0.757309 4.80013 0.472076 5.7168 1.00293 6.20013L3.91072 8.85013L3.03917 12.7835C2.88071 13.5001 3.61756 14.0668 4.21972 13.6835L7.50783 11.6001Z"
+                        fill="#FFB525" />
+                </svg>
+                4,5
+            </span>
+            <span>120 Học viên</span>
+        </div>
+        <div class="item-content">
+            <p>Giảng viên cao cấp Đại học Kinh tế quốc dân: PGS.TS. Nguyễn Văn Định</p>
+        </div>
+        <div class="item-price">
+            <span>1.000.000đ</span>
+            <button class="btnBuy">Mua khóa học</button>
+        </div>
+
+    </div>
+    <ul class="tab-list">
+        <li class="tab-item tab-active" onclick="chooseTab(1)"><a>Chương</a></li>
+        <li class="tab-item" onclick="chooseTab(2)"><a>Nhận xét</a></li>
+        <li class="tab-item" onclick="chooseTab(3)"><a>Cảm nhận của học viên</a></li>
+        <li class="tab-item" onclick="chooseTab(4)"><a>Tài liệu</a></li>
+    </ul>
+    <script>
+        function chooseTab(id) {
+            var item = document.querySelectorAll(".tab-item");
+            if (item[0].classList.contains("tab-active")) {
+                item[0].classList.remove("tab-active");
+            } else if (id == 1) {
+                item[0].classList.add("tab-active");
+            }
+            if (item[1].classList.contains("tab-active")) {
+                item[1].classList.remove("tab-active");
+            } else if (id == 2) {
+                item[1].classList.add("tab-active");
+            }
+            if (item[2].classList.contains("tab-active")) {
+                item[2].classList.remove("tab-active");
+            } else if (id == 3) {
+                item[2].classList.add("tab-active");
+            }
+            if (item[3].classList.contains("tab-active")) {
+                item[3].classList.remove("tab-active");
+            } else if (id == 4) {
+                item[3].classList.add("tab-active");
+            }
+        }
+    </script>
+</body>
+
+</html>
